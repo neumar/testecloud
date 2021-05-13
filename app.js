@@ -11,7 +11,7 @@ app.get('/hello', function(req, res){
 })
 
 app.get('/dobro/:n', function(req, res){
-    d = req.params.n * 2
+    d = req.params.n - 2
     res.end('resposta: '+d)
 })
 
